@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>27</title>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <script>
+      alert("Your script works");
+      let a = prompt("enter value of a", 67);
+      a = Number.parseInt(a);
+      alert("Type of a is " + typeof a);
+      let write = confirm("Do you want to write it the page");
+      if (write) {
+        document.write(a);
+      } else {
+        document.write("Please allow me to write");
+      }
+    </script>
+  </body>
+</html>

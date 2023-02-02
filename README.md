@@ -1,2 +1,2 @@
 # JavaScriptingTutorial
-My log of following a JavaScript course on Youtube
+My log of following a JavaScript course on Youtube.
